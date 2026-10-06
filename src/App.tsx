@@ -71,7 +71,7 @@ export default function App() {
             <nav className="tool-switcher" aria-label="切换练习工具">
               <a href="https://part1.yankaishui.com/practice">口语 Part 1</a>
               <a href="https://part2.yankaishui.com/">口语 Part 2&amp;3</a>
-              <NavLink to="/" aria-current="page">写作</NavLink>
+              <NavLink to="/" aria-current="page">写作 Task 2</NavLink>
             </nav>
             <span className="local-label">本地练习 <span className="privacy-dot" /></span>
             <a className="site-home-link" href="https://yankaishui.com/" aria-label="返回网站主页" title="返回网站主页"><HomeIcon size={22} /></a>
@@ -98,7 +98,7 @@ export default function App() {
           </Routes>
         </main>
         <footer>
-          雅思写作练习 <span> 独立练习工具 · 无 AI 调用费用 </span>
+          雅思 Task 2 写作练习 <span> 独立练习工具 · 无 AI 调用费用 </span>
         </footer>
       </div>
     </div>
