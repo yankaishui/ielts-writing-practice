@@ -16,7 +16,7 @@ export function Home() {
   return (
     <>
       <Heading
-        title={<>雅思写作练习 <span className="edition-badge">AI评分版</span></>}
+        title={<>雅思 Task 2 写作练习 <span className="edition-badge">支持 AI 点评导入</span></>}
         description="专注写作，心无旁骛。建议在电脑上使用，以获得最佳体验。"
       />
       {next && (
